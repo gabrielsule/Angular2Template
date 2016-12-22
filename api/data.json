@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "nombre":"johana",
+        "sector":"marketing"
+    },
+    {
+        "id":2,
+        "nombre":"jose",
+        "sector":"design"
+    },
+    {
+        "id":3,
+        "nombre":"gabriel",
+        "sector":"developer"
+    }        
+]

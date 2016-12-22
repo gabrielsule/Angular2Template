@@ -1,6 +1,6 @@
 Angular 2 Template
 ======
-**Template** de ng2 listo para comenzar cualquier tipo de aplicacion
+**Template** de ng2 listo para comenzar cualquier tipo de aplicacion, con un ejemplo de utilización de un archivo Json como pseudo API
 
 
 

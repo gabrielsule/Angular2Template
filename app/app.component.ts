@@ -1,6 +1,15 @@
 import { Component } from '@angular/core';
+import { usuarioService } from './usuarios/usuarios.service';
+
 @Component({
   selector: 'my-app',
-  template: '<h1>angular en accion</h1>'
+  template: `
+    <div><h1>{{pageTitle}}</h1>
+        <ng-usuarios></ng-usuarios>
+    </div>
+    `,
+    providers: [ usuarioService ]
 })
-export class AppComponent { }
+export class AppComponent { 
+  pageTitle: string = `Usuarios en Angular 2`;
+}
